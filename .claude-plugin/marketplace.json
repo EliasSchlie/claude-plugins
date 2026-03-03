@@ -11,7 +11,7 @@
         "repo": "EliasSchlie/sub-claude"
       },
       "description": "Session-oriented pool of persistent Claude TUI slots backed by tmux",
-      "version": "0.1.7"
+      "version": "0.1.8"
     },
     {
       "name": "claude-next-idle",
