@@ -7,6 +7,7 @@ Personal Claude Code plugin marketplace.
 | Plugin | Description |
 |--------|-------------|
 | [sub-claude](https://github.com/EliasSchlie/sub-claude) | Session-oriented pool of persistent Claude TUI slots backed by tmux |
+| [claude-next-idle](https://github.com/EliasSchlie/claude-next-idle) | Detects idle Claude sessions for keyboard-shortcut cycling |
 
 ## Install
 

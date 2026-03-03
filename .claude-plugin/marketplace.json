@@ -12,6 +12,15 @@
       },
       "description": "Session-oriented pool of persistent Claude TUI slots backed by tmux",
       "version": "0.1.3"
+    },
+    {
+      "name": "claude-next-idle",
+      "source": {
+        "source": "github",
+        "repo": "EliasSchlie/claude-next-idle"
+      },
+      "description": "Detects idle Claude sessions for keyboard-shortcut cycling",
+      "version": "1.0.0"
     }
   ]
 }
