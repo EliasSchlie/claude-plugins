@@ -21,6 +21,15 @@
       },
       "description": "Detects idle Claude sessions for keyboard-shortcut cycling",
       "version": "1.0.6"
+    },
+    {
+      "name": "claude-sessions",
+      "source": {
+        "source": "github",
+        "repo": "EliasSchlie/claude-sessions"
+      },
+      "description": "Maps session PIDs to IDs for the Claude Sessions app",
+      "version": "0.1.0"
     }
   ]
 }
