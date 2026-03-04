@@ -23,12 +23,12 @@
       "version": "1.0.6"
     },
     {
-      "name": "claude-sessions",
+      "name": "open-cockpit",
       "source": {
         "source": "github",
-        "repo": "EliasSchlie/claude-sessions"
+        "repo": "EliasSchlie/open-cockpit"
       },
-      "description": "Maps session PIDs to IDs for the Claude Sessions app",
+      "description": "Maps session PIDs to IDs for the Open Cockpit app",
       "version": "0.1.0"
     }
   ]
