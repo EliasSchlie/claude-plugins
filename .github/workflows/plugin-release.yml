@@ -66,7 +66,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .claude-plugin/plugin.json
-          git -c core.hooksPath=/dev/null commit -m "Release v${{ steps.bump.outputs.version }} [skip ci]"
+          git commit -m "Release v${{ steps.bump.outputs.version }} [skip ci]"
           git push
 
       - name: Update marketplace
@@ -83,7 +83,7 @@ jobs:
               .claude-plugin/marketplace.json > tmp.json && mv tmp.json .claude-plugin/marketplace.json
             git add .claude-plugin/marketplace.json
             git diff --cached --quiet && exit 0
-            git -c core.hooksPath=/dev/null commit -m "Bump ${{ inputs.plugin-name }} to ${{ steps.bump.outputs.version }} [skip ci]"
+            git commit -m "Bump ${{ inputs.plugin-name }} to ${{ steps.bump.outputs.version }} [skip ci]"
             git push && exit 0
             echo "Push failed (attempt $attempt), retrying..."
             git reset --soft HEAD~1
