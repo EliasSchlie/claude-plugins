@@ -29,7 +29,7 @@
         "repo": "EliasSchlie/open-cockpit"
       },
       "description": "Session intention tracking, idle detection, and PID mapping for the Open Cockpit app",
-      "version": "0.1.81"
+      "version": "0.1.82"
     }
   ]
 }
