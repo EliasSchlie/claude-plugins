@@ -1,6 +1,6 @@
 # Elias's Claude Plugins
 
-My personal collection of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins. I built these to make working with multiple Claude sessions less painful — managing pools, tracking intentions, cycling between idle sessions. They've become essential to my daily workflow and I'm sharing them in case they're useful to others.
+My personal collection of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins. I built these to make working with multiple Claude sessions less painful - managing pools, tracking intentions, cycling between idle sessions. They've become essential to my daily workflow and I'm sharing them in case they're useful to others.
 
 ## Plugins
 
