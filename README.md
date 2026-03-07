@@ -1,45 +1,32 @@
-# Claude Plugins Marketplace
+# Elias's Claude Plugins
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin marketplace for session management and productivity tools.
+My personal collection of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins. I built these to make working with multiple Claude sessions less painful — managing pools, tracking intentions, cycling between idle sessions. They've become essential to my daily workflow and I'm sharing them in case they're useful to others.
 
 ## Plugins
 
-| Plugin | Description |
+| Plugin | What it does |
 |--------|-------------|
-| [open-cockpit](https://github.com/EliasSchlie/open-cockpit) | Session intention tracking, idle detection, and PID mapping for the Open Cockpit app |
-| [sub-claude](https://github.com/EliasSchlie/sub-claude) | Session-oriented pool of persistent Claude TUI slots backed by tmux |
-| [claude-next-idle](https://github.com/EliasSchlie/claude-next-idle) | Detects idle Claude sessions for keyboard-shortcut cycling |
+| [Open Cockpit](https://github.com/EliasSchlie/open-cockpit) | Electron app + plugin for orchestrating Claude sessions through a shared pool. Sidebar, intention tracking, idle detection, agent API. |
+| [Sub-Claude](https://github.com/EliasSchlie/sub-claude) | Tmux-backed pool of persistent Claude sessions. Fire-and-forget parallel work from the terminal. |
+| [Claude Next Idle](https://github.com/EliasSchlie/claude-next-idle) | Keyboard shortcut to jump to your next idle Claude session. LIFO stack, works with iTerm + Cursor. |
 
 ## Install
 
-### Add the marketplace
+Add the marketplace, then install whichever plugins you need:
 
 ```bash
+# Add this marketplace
 claude plugin marketplace add EliasSchlie/claude-plugins
-```
 
-### Install individual plugins
-
-```bash
-# Open Cockpit — session tracking for the Open Cockpit desktop app
+# Pick what you need
 claude plugin install open-cockpit@elias-tools
-
-# Sub-Claude — tmux-backed pool of persistent Claude sessions
 claude plugin install sub-claude@elias-tools
-
-# Claude Next Idle — cycle to the next idle Claude session
 claude plugin install claude-next-idle@elias-tools
 ```
 
 ## Contributing
 
-Want to add a plugin to this marketplace? Open a PR that adds your plugin entry to `.claude-plugin/marketplace.json`.
-
-Each plugin entry needs:
-- `name` — unique plugin identifier
-- `source` — `{ "source": "github", "repo": "owner/repo" }`
-- `description` — short one-liner
-- `version` — semver string matching the version in your plugin's `.claude-plugin/plugin.json`
+Want to add a plugin? Open a PR that adds your entry to `.claude-plugin/marketplace.json` with a `name`, `source`, `description`, and `version`.
 
 ## License
 
