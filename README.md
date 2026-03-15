@@ -24,6 +24,22 @@ claude plugin install sub-claude@elias-tools
 claude plugin install claude-next-idle@elias-tools
 ```
 
+## Troubleshooting
+
+**"Permission denied (publickey)" during install**
+
+Claude Code clones plugin repos via SSH by default. If you don't have SSH keys set up for GitHub, installation will fail. Fix by telling git to use HTTPS:
+
+```bash
+git config --global url."https://github.com/".insteadOf git@github.com:
+```
+
+To revert later (e.g., after setting up SSH keys):
+
+```bash
+git config --global --unset url."https://github.com/".insteadOf
+```
+
 ## Contributing
 
 Want to add a plugin? Open a PR that adds your entry to `.claude-plugin/marketplace.json` with a `name`, `source`, `description`, and `version`.
