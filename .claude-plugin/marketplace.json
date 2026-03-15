@@ -30,6 +30,15 @@
       },
       "description": "Session intention tracking, idle detection, and PID mapping for the Open Cockpit app",
       "version": "0.1.156"
+    },
+    {
+      "name": "claude-term",
+      "source": {
+        "source": "github",
+        "repo": "EliasSchlie/claude-term"
+      },
+      "description": "Persistent terminal management — spawn, read, write, and kill terminals that survive session disconnects",
+      "version": "0.1.0"
     }
   ]
 }
