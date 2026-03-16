@@ -38,7 +38,7 @@
         "repo": "EliasSchlie/claude-term"
       },
       "description": "Persistent terminal management \u2014 spawn, read, write, and kill terminals that survive session disconnects",
-      "version": "0.1.4"
+      "version": "0.1.8"
     },
     {
       "name": "claude-pool",
