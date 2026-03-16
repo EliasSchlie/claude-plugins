@@ -39,6 +39,15 @@
       },
       "description": "Persistent terminal management \u2014 spawn, read, write, and kill terminals that survive session disconnects",
       "version": "0.1.4"
+    },
+    {
+      "name": "claude-pool",
+      "source": {
+        "source": "github",
+        "repo": "EliasSchlie/claude-pool"
+      },
+      "description": "Managed pools of Claude Code sessions \u2014 spawn, offload, restore, prompt, attach",
+      "version": "0.1.0"
     }
   ]
 }
