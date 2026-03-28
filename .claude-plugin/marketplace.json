@@ -37,7 +37,7 @@
         "source": "github",
         "repo": "EliasSchlie/claude-term"
       },
-      "description": "Persistent terminal management — spawn, read, write, and kill terminals that survive session disconnects",
+      "description": "Persistent terminal management \u2014 spawn, read, write, and kill terminals that survive session disconnects",
       "version": "0.1.8"
     },
     {
@@ -46,7 +46,7 @@
         "source": "github",
         "repo": "EliasSchlie/claude-pool"
       },
-      "description": "Managed pools of Claude Code sessions — spawn, offload, restore, prompt, attach",
+      "description": "Managed pools of Claude Code sessions \u2014 spawn, offload, restore, prompt, attach",
       "version": "0.1.2"
     },
     {
@@ -55,8 +55,8 @@
         "source": "github",
         "repo": "EliasSchlie/ai-safety-expert"
       },
-      "description": "AI safety field expert — career advice, events, sub-fields, and company landscape",
-      "version": "0.1.0"
+      "description": "AI safety field expert \u2014 career advice, events, sub-fields, and company landscape",
+      "version": "0.1.1"
     }
   ]
 }
