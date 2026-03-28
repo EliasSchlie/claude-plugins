@@ -48,6 +48,15 @@
       },
       "description": "Managed pools of Claude Code sessions \u2014 spawn, offload, restore, prompt, attach",
       "version": "0.1.1"
+    },
+    {
+      "name": "ai-safety-expert",
+      "source": {
+        "source": "github",
+        "repo": "EliasSchlie/ai-safety-expert"
+      },
+      "description": "AI safety field expert — career advice, events, sub-fields, and company landscape",
+      "version": "0.1.0"
     }
   ]
 }
